@@ -19,7 +19,7 @@ service CatalogService @(
         }
     ])                        as projection on db.master.address;
 
-    @readonly
+    
     entity EmployeeSet        as projection on db.master.employees;
 
     entity ProductSet         as projection on db.master.product;
